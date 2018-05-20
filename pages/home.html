@@ -418,6 +418,7 @@ $('#goto-height').keyup(function(e){
 				loadHeight = parseInt(urlParam('height'));
             else
 				loadHeight = lastStats.last_known_block_index;
+			  
 		
 		if((loadHeight - 31) < 0){
 			$('#prev-page').addClass('disabled');
